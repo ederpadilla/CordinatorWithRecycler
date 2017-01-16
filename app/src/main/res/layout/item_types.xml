@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="100dp"
+    android:layout_height="150dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/potatoes"
+        android:id="@+id/type_snack_image"
+        android:layout_gravity="center"
+        app:civ_border_width="4dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/inactive"
+        android:textStyle="normal"
+        android:id="@+id/ite_type_snack_name"
+        android:text="Para botanear"/>
+
+
+</LinearLayout>
